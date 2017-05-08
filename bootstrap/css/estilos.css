@@ -1,0 +1,67 @@
+/* Clase para darle estilos al body */
+.blog-musica-body {
+  background: #000000;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/* Clase para darle estilos a la barra de navegacion */
+.navbar-inverse {
+  background: #000000;
+  margin-left: 5%;
+  margin-right: 5%;
+  border: none;
+}
+
+/* Clase para darle estilos al contenedor principal */
+.container-fluid {
+  margin-top: 64px;
+}
+
+
+
+/* Clase para darle estilos a la etiqueta contenedora de los encabezados/titulos */
+.titulo-cartelera {
+  min-height: 50px;
+  background: #5e180b;
+
+}
+
+/* Clase para darle estilos a las filas y/o a columas que contienes filas */
+.movies-row {
+  background: #00678E;
+  min-height: 350px;
+  padding: 15px;
+}
+
+/* Clase para darle estilos a las columnas*/
+.movies-column {
+  margin-top: 5px;
+  background: #00678E;
+  min-height: 330px;
+  border: 1px dashed #FFFFFF;
+}
+
+/* Clase para darle estilos a la columna de la izquierda y agregar borde a la derecha */
+.left-column {
+  border-right: 1px dashed #FFFFFF;
+}
+
+@media (max-width: 770px) {
+  /* Clase para ocultar componentes HTML */
+  .right-column {
+    display: none;
+  }
+
+  .movies-row {
+    min-height: 250px;
+  }
+
+  .movies-column {
+    min-height: 230px;
+  }
+
+  .jumbotron {
+    min-height: 350px;
+  }
+}
