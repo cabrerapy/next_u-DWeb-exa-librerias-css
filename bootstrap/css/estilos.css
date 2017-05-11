@@ -1,15 +1,15 @@
 /* Clase para darle estilos al body */
 .blog-musica-body {
   background: #000000;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding: -2%;
 }
 
 /* Clase para darle estilos a la barra de navegacion */
 .navbar-inverse {
   background: #000000;
-  margin-left: 5%;
-  margin-right: 5%;
+
   border: none;
 }
 
@@ -23,21 +23,23 @@
 /* Clase para darle estilos a la etiqueta contenedora de los encabezados/titulos */
 .titulo-cartelera {
   min-height: 50px;
-  background: #5e180b;
+  background: #82c3a6;
 
 }
 
 /* Clase para darle estilos a las filas y/o a columas que contienes filas */
 .movies-row {
-  background: #00678E;
+  background: #82c3a6;
   min-height: 350px;
   padding: 15px;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 /* Clase para darle estilos a las columnas*/
 .movies-column {
   margin-top: 5px;
-  background: #00678E;
+  background: #606060;
   min-height: 330px;
   border: 1px dashed #FFFFFF;
 }
@@ -64,4 +66,29 @@
   .jumbotron {
     min-height: 350px;
   }
+}
+
+@media (min-width: 770px) {
+  .navbar-nav {
+    margin: 0 auto;
+    display: table;
+    /*      table-layout: auto; */
+    table-layout: fixed;
+    float: none;
+    width: 100%;
+  }
+  .navbar-nav>li {
+    display: table-cell;
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+  .navbar {
+    background-color: black;
+    border-radius: 0;
+  }
+  li {
+    border: 1px solid rgba(96, 96, 96, 0.48);
+  }
+
 }
