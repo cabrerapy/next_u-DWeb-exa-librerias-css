@@ -1,94 +1,181 @@
 /* Clase para darle estilos al body */
 .blog-musica-body {
-  background: #000000;
-  margin-left: 2%;
-  margin-right: 2%;
-  padding: -2%;
+    background: #000000;
+    margin-left: 2%;
+    margin-right: 2%;
+
+}
+
+ul#social li {
+    display: inline;
+
 }
 
 /* Clase para darle estilos a la barra de navegacion */
 .navbar-inverse {
-  background: #000000;
+    background: #000000;
+    border: none;
+}
 
-  border: none;
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+    /* linea que se dibuja en los*/
 }
 
 /* Clase para darle estilos al contenedor principal */
 .container-fluid {
-  margin-top: 64px;
+    margin-top: 64px;
 }
-
-
 
 /* Clase para darle estilos a la etiqueta contenedora de los encabezados/titulos */
 .titulo-cartelera {
-  min-height: 50px;
-  background: #82c3a6;
+    min-height: 50px;
+    background: #82c3a6;
 
 }
 
 /* Clase para darle estilos a las filas y/o a columas que contienes filas */
 .movies-row {
-  background: #82c3a6;
-  min-height: 350px;
-  padding: 15px;
-  margin-left: 2%;
-  margin-right: 2%;
+    background: #82c3a6;
+    min-height: 350px;
+    padding: 15px;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 /* Clase para darle estilos a las columnas*/
 .movies-column {
-  margin-top: 5px;
-  background: #606060;
-  min-height: 330px;
-  border: 1px dashed #FFFFFF;
+    margin-top: 5px;
+    background: #606060;
+    min-height: 330px;
+    border: 1px dashed #FFFFFF;
 }
 
 /* Clase para darle estilos a la columna de la izquierda y agregar borde a la derecha */
 .left-column {
-  border-right: 1px dashed #FFFFFF;
+    border-right: 1px dashed #FFFFFF;
+}
+
+.div-social {
+    text-align: right
+}
+
+.div-logo-var {
+    display: block;
+    text-align: left;
+    width: 120px;
+
 }
 
 @media (max-width: 770px) {
-  /* Clase para ocultar componentes HTML */
-  .right-column {
-    display: none;
-  }
+    /* Clase para ocultar componentes HTML */
+    .right-column {
+        display: none;
+    }
 
-  .movies-row {
-    min-height: 250px;
-  }
+    .movies-row {
+        min-height: 250px;
+    }
 
-  .movies-column {
-    min-height: 230px;
-  }
+    .movies-column {
+        min-height: 230px;
+    }
 
-  .jumbotron {
-    min-height: 350px;
-  }
+    .jumbotron {
+        min-height: 350px;
+    }
+
+    .div-social {
+        text-align: center;
+        margin: 0 auto;
+        padding-left: 0px;
+    }
+
+    .div-logo-var {
+        width: 150px;
+        margin: 0 auto;
+    }
+
+    ul#social {
+        padding-left: 0px;
+
+    }
 }
 
 @media (min-width: 770px) {
-  .navbar-nav {
-    margin: 0 auto;
-    display: table;
-    /*      table-layout: auto; */
-    table-layout: fixed;
-    float: none;
-    width: 100%;
-  }
-  .navbar-nav>li {
-    display: table-cell;
-    float: none;
-    text-align: center;
-    width: 100%;
-  }
-  .navbar {
-    background-color: black;
-    border-radius: 0;
-  }
-  li {
-    border: 1px solid rgba(96, 96, 96, 0.48);
-  }
+    .navbar-nav {
+        margin: 0 auto;
+        display: table;
+        /*      table-layout: auto; */
+        table-layout: fixed;
+        float: none;
+        width: 100%;
+    }
 
+    .navbar-nav > li {
+        display: table-cell;
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    .navbar {
+        background-color: black;
+        border-radius: 0;
+    }
+
+    li {
+        border: 1px solid rgba(96, 96, 96, 0.1);
+    }
+
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+    src: local('Material Icons'),
+    local('MaterialIcons-Regular'),
+    url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+    url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+    url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+.thumbnail {
+    padding: 0px;
+    margin: auto;
+}
+
+.icono-social {
+    width: 32px;
+    height: 32px;
 }
