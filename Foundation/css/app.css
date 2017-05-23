@@ -47,3 +47,14 @@ body {
 h6{
     color: red;
 }
+
+.button{
+    float: right
+}
+
+.form{
+margin: 1%;
+}
+h5{
+    color: #0c3d5d;
+}
