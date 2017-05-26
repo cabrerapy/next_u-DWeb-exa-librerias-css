@@ -1,7 +1,7 @@
 body {
     /* Ubicación de la imagen */
 
-    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/72/25/de/7225de7aeb059c1e38d47a81a85abb35.jpg");
+    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/8e/f6/da/8ef6da51e6e17e9b1b6079757c3f3f11.jpg");
 
     /* Para dejar la imagen de fondo centrada, vertical y
     horizontalmente */
@@ -24,38 +24,13 @@ body {
 
     background-color: #000000;
 }
-.contenedor{
-    background-color: rgba(42, 171, 210, 0.36);
-    padding: 1%;
+
+.icono-social {
+    width: 32px;
+    height: 32px;
 }
 
-.menu-color{
-    background-color: rgba(255, 255, 255, 0.47);
-    border-radius: 5px;
-    border: 2px solid rgba(115, 173, 33, 0.13);
-    padding: 20px;
-}
+.img-turismo{
+    width: 100%;
 
-.cuerpo-color{
-    background-color: rgba(96, 96, 96, 0.51);
-    border-radius: 5px;
-    border: 2px solid rgba(115, 173, 33, 0.13);
-    padding: 20px;
-    margin-bottom: 30px;
-
-}
-
-h6{
-    color: red;
-}
-
-.button{
-    float: right
-}
-
-.form{
-margin: 1%;
-}
-h5{
-    color: #0c3d5d;
 }
