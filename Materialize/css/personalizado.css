@@ -26,11 +26,44 @@ body {
 }
 
 .icono-social {
-    width: 50%;
+    width: 100%;
+    padding: 5%;
+    margin: 10%;
+}
+.avatar{
+    padding: 10%;
+}
+.card .card-title{
     margin: auto;
 }
-
-.img-turismo{
+.img-turismo {
     width: 100%;
+}
 
+.sociales {
+    /*width: 100%;*/
+    /*height: 25%;*/
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.44);
+}
+
+.nav-color {
+    background-color: rgba(0, 0, 0, 0.64);
+}
+
+.imagen-nav {
+    margin-top: 10px;
+}
+
+.logo {
+    color: white;
+}
+
+@media (max-width: 770px) {
+    nav .nav-title {
+        margin-top: 4%;
+        font-size: 18px;
+    }
 }
