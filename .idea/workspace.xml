@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8181f06b-20b0-4431-8bf1-e7695c24ef3e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Materialize/img/avatar.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Materialize/img/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Materialize/img/cerro_castor.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Materialize/img/coral.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Materialize/css/materialize.css" afterPath="$PROJECT_DIR$/Materialize/css/materialize.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Materialize/css/personalizado.css" afterPath="$PROJECT_DIR$/Materialize/css/personalizado.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Materialize/index.html" afterPath="$PROJECT_DIR$/Materialize/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/index.html" afterPath="$PROJECT_DIR$/bootstrap/index.html" />
     </list>
     <ignored path="librerias-css.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,8 +29,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Materialize/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
-              <caret line="172" column="9" lean-forward="false" selection-start-line="172" selection-start-column="9" selection-end-line="172" selection-end-column="9" />
+            <state relative-caret-position="292">
+              <caret line="141" column="39" lean-forward="false" selection-start-line="141" selection-start-column="39" selection-end-line="141" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bootstrap/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="58" column="9" lean-forward="false" selection-start-line="58" selection-start-column="9" selection-end-line="73" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -40,7 +49,7 @@
       <file leaf-file-name="materialize.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Materialize/css/materialize.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
+            <state relative-caret-position="81838">
               <caret line="4814" column="7" lean-forward="false" selection-start-line="4814" selection-start-column="7" selection-end-line="4814" selection-end-column="7" />
               <folding />
             </state>
@@ -50,7 +59,7 @@
       <file leaf-file-name="personalizado.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Materialize/css/personalizado.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
+            <state relative-caret-position="612">
               <caret line="36" column="16" lean-forward="false" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
               <folding />
             </state>
@@ -105,12 +114,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/bootstrap/css/estilos.css" />
-        <option value="$PROJECT_DIR$/bootstrap/index.html" />
         <option value="$PROJECT_DIR$/Foundation/css/foundation.css" />
         <option value="$PROJECT_DIR$/Foundation/css/app.css" />
         <option value="$PROJECT_DIR$/Foundation/index.html" />
         <option value="$PROJECT_DIR$/Materialize/css/materialize.css" />
         <option value="$PROJECT_DIR$/Materialize/css/personalizado.css" />
+        <option value="$PROJECT_DIR$/bootstrap/index.html" />
         <option value="$PROJECT_DIR$/Materialize/index.html" />
       </list>
     </option>
@@ -369,7 +378,8 @@
       <workItem from="1495665886562" duration="3636000" />
       <workItem from="1495721730760" duration="4816000" />
       <workItem from="1495832980571" duration="3731000" />
-      <workItem from="1495905794361" duration="11600000" />
+      <workItem from="1495905794361" duration="11657000" />
+      <workItem from="1496016694253" duration="3478000" />
     </task>
     <task id="LOCAL-00001" summary="cambios en sombra de index">
       <created>1495907058421</created>
@@ -378,11 +388,18 @@
       <option name="project" value="LOCAL" />
       <updated>1495907058421</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="cambios en tipo de navegacion, se agrego footer, se agrego parte inferior de la pagia">
+      <created>1495919321692</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1495919321692</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69962000" />
+    <option name="totallyTimeSpent" value="73497000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -390,7 +407,7 @@
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2510981" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -414,7 +431,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="cambios en sombra de index" />
-    <option name="LAST_COMMIT_MESSAGE" value="cambios en sombra de index" />
+    <MESSAGE value="cambios en tipo de navegacion, se agrego footer, se agrego parte inferior de la pagia" />
+    <option name="LAST_COMMIT_MESSAGE" value="cambios en tipo de navegacion, se agrego footer, se agrego parte inferior de la pagia" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -730,18 +748,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="41" column="25" lean-forward="true" selection-start-line="32" selection-start-column="19" selection-end-line="41" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Materialize/LICENSE">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -749,7 +759,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -757,13 +766,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
           <caret line="124" column="18" lean-forward="false" selection-start-line="124" selection-start-column="18" selection-end-line="124" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Materialize/css/personalizado.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
+        <state relative-caret-position="612">
           <caret line="36" column="16" lean-forward="false" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
           <folding />
         </state>
@@ -771,16 +779,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Materialize/css/materialize.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
+        <state relative-caret-position="81838">
           <caret line="4814" column="7" lean-forward="false" selection-start-line="4814" selection-start-column="7" selection-end-line="4814" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="58" column="9" lean-forward="false" selection-start-line="58" selection-start-column="9" selection-end-line="73" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Materialize/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="172" column="9" lean-forward="false" selection-start-line="172" selection-start-column="9" selection-end-line="172" selection-end-column="9" />
+        <state relative-caret-position="292">
+          <caret line="141" column="39" lean-forward="false" selection-start-line="141" selection-start-column="39" selection-end-line="141" selection-end-column="39" />
           <folding />
         </state>
       </provider>
